@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.cart {
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background-color: #f4f4f4;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+.hover:hover{
+    background-color: bisque;
+    color:black;
+    padding: 10px 20px;
+
+
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.breadcrumbs {
+    padding: 15px 40px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #a2836e;
+}
+
+.carousel {
+    height: 120px;
+    background: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide {
+    display: none;
+    font-size: 22px;
+}
+
+.slide.active {
+    display: block;
+}
