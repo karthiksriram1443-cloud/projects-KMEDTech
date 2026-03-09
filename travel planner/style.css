@@ -1,0 +1,56 @@
+body{
+font-family: Arial;
+background:#dfc7c7;
+margin:0;
+}
+
+header{
+background:#2196F3;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.search{
+text-align:center;
+margin:20px;
+}
+
+.search input{
+padding:10px;
+width:200px;
+}
+
+.search button{
+padding:10px;
+background:#2196F3;
+color:white;
+border:none;
+}
+
+.destinations{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:200px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+@media(max-width :768px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Travel Planner</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Travel Planner</h1>
+</header>
+
+<section class="search">
+<input type="text" id="searchInput" placeholder="Search destination">
+<button onclick="searchDestination()">Search</button>
+</section>
+
+<section class="destinations">
+
+<div class="card">
+<img src="paris.jpg">
+<h3>Paris</h3>
+
+
+<p id="weather-paris">Weather: --</p>
+<button onclick="getWeather('Paris')">Check Weather</button>
+<p>26%</p>
+</div>
+
+<div class="card">
+<img src="bali.jpg">
+<h3>Bali</h3>
+<p id="weather-bali">Weather: --</p>
+<button onclick="getWeather('Bali')">Check Weather</button>
+<p>30%</p>
+</div>
+
+<div class="card">
+<img src="goa.jpg">
+<h3>Goa</h3>
+<p id="weather-Goa">Weather: --</p>
+<button onclick="getWeather('Goa')">Check Weather</button>
+<p>23%</p>
+</div>
+
+<div class="card">
+<img src="vietnam.jfif">
+<h3>Vietnam</h3>
+<p id="weather-Vietnam">Weather: --</p>
+<button onclick="getWeather('Vietnam')">Check Weather</button>
+<p>29%</p>
+</div>
+
+<div class="card">
+<img src="Boston.jfif">
+<h3>boston</h3>
+<p id="weather-boston">Weather: --</p>
+<button onclick="getWeather('Bostan')">Check Weather</button>
+<p>36%</p>
+</div>
+
+<div class="card">
+<img src="hogwarts.webp">
+<h3>Hogwarts</h3>
+<p id="weather-hogwarts">Weather: --</p>
+<button onclick="getWeather('Hogwarts')">Check Weather</button>
+<p>32%</p>
+</div>
+
+<div class="card">
+<img src="gokarna.jpg">
+<h3>Gokarna</h3>
+<p id="weather-gokarna">Weather: --</p>
+<button onclick="getWeather('Gokarna ')">Check Weather</button>
+<p>28%</p>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
